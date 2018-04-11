@@ -3,13 +3,13 @@ plugins {
 }
 
 dependencies {
-  play "com.typesafe.play:play-guice_2.12:2.6.9"
+  play "com.typesafe.play:play-guice_2.12:2.6.13"
 }
 
 model {
   components {
     play {
-      platform play: '2.6.9', scala: '2.12', java: '1.8'
+      platform play: '2.6.13', scala: '2.12', java: '1.8'
       injectedRoutesGenerator = true
 
       // reconfigure back to maven layout

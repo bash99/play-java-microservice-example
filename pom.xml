@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <play2.version>2.6.9</play2.version>
+    <play2.version>2.6.13</play2.version>
     <scala.version>2.12.4</scala.version>
     <scala.binaryVersion>2.12</scala.binaryVersion>
   </properties>
@@ -59,7 +59,7 @@
       <plugin>
         <groupId>com.google.code.play2-maven-plugin</groupId>
         <artifactId>play2-maven-plugin</artifactId>
-        <version>1.0.0-rc1</version>
+        <version>1.0.0-rc2</version>
         <extensions>true</extensions>
         <configuration>
           <mainLang>java</mainLang>
